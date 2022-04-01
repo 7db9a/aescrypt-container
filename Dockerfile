@@ -55,7 +55,7 @@ ENV \
 RUN nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
 RUN nix-channel --update; nix-env -iA nixpkgs.nix
 
-RUN nix-env -iA nixos.aescrypt
+RUN nix-env -iA nixpkgs.aescrypt
 
 WORKDIR /root/aescrypt
 
