@@ -1,24 +1,23 @@
-# magic-wormhole-container
+# aescrypt-container
 
-Easily and securely send and receive files using a containerized Magic Wormhole. No private keys or other things to setup. The sender and receiver only needs Magic Wormhole installed.
-
-To learn more about Magic Wormhole:
+Easily encrypt and decrypt files using a containerized aescrypt.
 
 `https://github.com/magic-wormhole/magic-wormhole`
 
 ## Usage
 
-**Send.**
+**Encrypt.**
 
 ```
-wormhole send FILE_OR_DIR
+aescrypt -e -p <password> <file>
 ```
 
-**Receive.**
+**Decrypt**
 
 ```
-wormhole receive
+aescrypt -d -p <password> <file>
 ```
+
 ## Setup
 
 **Download this repository.**
