@@ -73,6 +73,6 @@ Or if you just want it to work, but it's not ideal for several reasons such as t
 sudo cp docker-cmd.sh /bin/aescrypt
 ```
 
-## Caveats
+## Windows install
 
-Works great, but the docker image is a little overboard as it uses `nix-pkgs` to install magic-wormhole. I had it handy because I use this formulation to install other packages on wormhole related projects. And I prefer `nix-pkgs` to do it.
+https://www.aescrypt.com/download/
