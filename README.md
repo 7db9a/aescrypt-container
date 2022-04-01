@@ -2,7 +2,7 @@
 
 Easily encrypt and decrypt files using a containerized aescrypt.
 
-`https://github.com/magic-wormhole/magic-wormhole`
+`https://www.aescrypt.com/`
 
 ## Usage
 
@@ -72,7 +72,3 @@ Or if you just want it to work, but it's not ideal for several reasons such as t
 ```
 sudo cp docker-cmd.sh /bin/aescrypt
 ```
-
-## Windows install
-
-https://www.aescrypt.com/download/
